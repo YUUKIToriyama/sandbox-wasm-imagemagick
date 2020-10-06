@@ -1,0 +1,22 @@
+{
+  "name": "sandbox-wasm-imagemagick",
+  "version": "1.0.0",
+  "description": "KnicKnic/WASM-ImageMagickの練習",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YUUKIToriyama/sandbox-wasm-imagemagick.git"
+  },
+  "author": "YUUKIToriyama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YUUKIToriyama/sandbox-wasm-imagemagick/issues"
+  },
+  "homepage": "https://github.com/YUUKIToriyama/sandbox-wasm-imagemagick#readme",
+  "dependencies": {
+    "wasm-imagemagick": "^1.2.8"
+  }
+}
