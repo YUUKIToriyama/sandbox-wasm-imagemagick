@@ -4,7 +4,7 @@ import * as Magick from './magickApi.js';
 
 const main = async () => {
 	const arrayBuffer = await fetch(
-		"http://torisfactory.sakura.ne.jp/sblo_files/yuukitoriyama/image/IMG_20190331_143441-7d3ff-thumbnail2.jpg"
+		"./sample.jpg"
 	).then(res => res.arrayBuffer());
 
 	const commands = [
