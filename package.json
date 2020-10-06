@@ -18,5 +18,8 @@
   "homepage": "https://github.com/YUUKIToriyama/sandbox-wasm-imagemagick#readme",
   "dependencies": {
     "wasm-imagemagick": "^1.2.8"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
   }
 }

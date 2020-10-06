@@ -1,10 +1,11 @@
 /* main.js */
 
-import * as Magick from './magickApi.js';
+import * as Magick from 'https://knicknic.github.io/wasm-imagemagick/magickApi.js';
+//import * as Magick from './magickApi.js';
 
 const main = async () => {
 	const arrayBuffer = await fetch(
-		"~/ピクチャ/sample/s-pc.jpg"
+		"./sample.jpg"
 	).then(res => res.arrayBuffer());
 
 	const commands = [
@@ -36,6 +37,6 @@ const main = async () => {
 		wrap.append(cap);
 		document.getElementById("gallery").append(wrap);
 	};
+};
 
-	main();
-}
+main();
